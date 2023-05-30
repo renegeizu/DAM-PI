@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Project Leader</string>
+    <string name="pl1_conexion">Conexion</string>
+    <string name="pl2_ultimos">Ultimos Proyectos</string>
+    <string name="pl3_proyecto">Proyecto</string>
+    <string name="pl4_cliente">Cliente</string>
+    <string name="pl7_buscadorempleados">Lista de Empleados</string>
+    <string name="pl6_empleado">Empleado</string>
+    
+    <string name="action_buscarEmpleados">Lista de Empleados</string>
+    
+    <string name="logo">Logo</string>
+    
+    <string name="pl1_btConectar">Conectarse</string>
+    <string name="pl1_tvLogin">Usuario:</string>
+    <string name="pl1_tvPass">Contraseña:</string>
+    
+    <string name="pl2_tvNombre">Titulo</string>
+    <string name="pl2_tvFechaEntrega">Fecha de Entrega</string>
+    <string name="pl2_tvPrioridad">Prioridad</string>
+    <string name="pl2_tvEstado">Estado</string>
+    
+    <string name="pl3_tvTitulo">Titulo</string>
+    <string name="pl3_tvDescripcion">Descripcion</string>
+    <string name="pl3_tvComentarios">Comentarios:</string>
+    <string name="pl3_tvEmpleado">Empleado</string>
+    <string name="pl3_tvComentario">Comentario</string>
+    <string name="pl3_btCliente">Acceder Al Cliente</string>
+    <string name="pl3_btComentario">Agregar Comentario</string>
+    <string name="pl3_btEnviar">Enviar Comentario</string>
+    <string name="pl3_etComentar">Insertar Comentario</string>
+    
+    <string name="pl4_tvNombre">Nombre</string>
+    <string name="pl4_tvEmpresa">Empresa</string>
+    <string name="pl4_tvTelefono">Telefono</string>
+    <string name="pl4_btTelefono">Llamar</string>
+    <string name="pl4_tvEmail">Email</string>
+    <string name="pl4_btEmail">Enviar Email</string>
+    
+    <string name="pl5_tvNombre">Nombre</string>
+    <string name="pl5_tvUser">Usuario</string>
+    <string name="pl5_tvPuesto">Puesto</string>
+    
+    <string name="pl6_tvNombre">Nombre</string>
+    <string name="pl6_tvUser">User</string>
+    <string name="pl6_tvFechaNacimiento">Fecha</string>
+    <string name="pl6_tvPuesto">Puesto</string>
+    <string name="pl6_tvTelefono">Telefono</string>
+    <string name="pl6_btTelefono">Llamar</string>
+    <string name="pl6_tvEmail">Email</string>
+    <string name="pl6_btEmail">Enviar Email</string>
+    
+
+</resources>

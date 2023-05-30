@@ -1,2 +1,6 @@
-# DAM-PI
-Desarrollo de Aplicaciones Multiplataforma 2013/2014 - Proyecto Integrado (2ºCurso) 
+# Proyecto Integrado
+
++ App: Aplicacion en Android
++ DDBB: Base de Datos en SQL
++ HTML + CSS: Frontend
++ PHP: Backend

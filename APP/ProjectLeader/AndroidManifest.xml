@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rngds.projectleader"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.rngds.projectleader.PL0_Portada"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.rngds.projectleader.PL1_Conexion"
+            android:label="@string/pl1_conexion"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.rngds.projectleader.PL2_Ultimos"
+            android:label="@string/pl2_ultimos"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.rngds.projectleader.PL3_Proyecto"
+            android:label="@string/pl3_proyecto"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.rngds.projectleader.PL4_Cliente"
+            android:label="@string/pl4_cliente"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.rngds.projectleader.PL5_Empleados"
+            android:label="@string/pl7_buscadorempleados" >
+        </activity>
+        <activity
+            android:name="com.rngds.projectleader.PL6_Empleado"
+            android:label="@string/pl6_empleado" >
+        </activity>
+    </application>
+
+</manifest>

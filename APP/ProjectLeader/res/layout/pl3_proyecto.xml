@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/fondo"
+    tools:context=".PL3_Proyecto" >
+
+    <TextView
+        android:id="@+id/PL3_tvTitulo"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pl3_tvTitulo"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ScrollView
+        android:id="@+id/PL3_sv"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/PL3_tvDescripcion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pl3_tvDescripcion" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/PL3_btCliente"
+        android:visibility="invisible"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:onClick="verCliente"
+        android:background="@drawable/selector_boton"
+        android:text="@string/pl3_btCliente" />
+
+    <Button
+        android:id="@+id/PL3_btComentario"
+        android:visibility="invisible"
+        android:layout_marginTop="5dp"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_boton"
+        android:onClick="comentar"
+        android:text="@string/pl3_btComentario" />
+
+    <TextView
+        android:id="@+id/PL3_tvComentarios"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pl3_tvComentarios"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ListView
+        android:id="@+id/PL3_lvComentarios"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>
